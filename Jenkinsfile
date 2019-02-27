@@ -7,6 +7,11 @@ node("maven-label") {
       
     testmethod 'test'
    }
+    
+     stage("sayHello"){
+      
+    sayHello "edureka"
+   }
    def mvnHome
    stage('Preparation') { // for display purposes
       
