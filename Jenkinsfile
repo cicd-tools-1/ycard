@@ -1,3 +1,5 @@
+@Library('pipeline-library-demo')_
+
 def testmethod(String name = 'human'){
     echo "Test, ${name}."
 }
